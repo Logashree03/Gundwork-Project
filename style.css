@@ -21,7 +21,7 @@ h1, h2, h3, h4, h5, h6 ,p{
 }
 body{
     background:#f8f9fb;
-    background-image: url('./Img/background/bg.png');
+    background-image: url('bg.png');
     background-size: cover;
     background-attachment: fixed;
     background-blend-mode: overlay;
@@ -344,7 +344,7 @@ p{
 
 
 .hero {
-    background-image: url('./Img/background/bg.png');
+    background-image: url('bg.png');
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -820,7 +820,7 @@ p{
     gap: 15px;
     justify-items: center;
     box-sizing: border-box;
-    background-image: url('./Img/background/bg.png');
+    background-image: url('bg.png');
     background-size: cover;
     background-position: center;
     position: relative;
@@ -1132,8 +1132,12 @@ tbody tr:hover {
     /* width: 1521px; */
     width: 100%;
     padding: 100px;
-    background-image: url('./Img/background/bg.png');
+    background-image: url('bg.png');
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -1497,7 +1501,7 @@ tbody tr:hover {
 
 .Manufacturer-Section 
 {
-    background-image: url('./Img/background/bg.png');
+    background-image: url('bg.png');
     width: 100%;
     max-width: 1521px;
     margin: 0 auto;
@@ -1638,7 +1642,7 @@ tbody tr:hover {
     max-width: 420px;
     height: 280px;
     border-radius: 32px;
-    background-image: url(./Img/hero-img/1.jpg);
+    background-image: url('1.jpg');
     background-size: cover;
     background-position: center;
     flex-shrink: 0;
@@ -2113,7 +2117,7 @@ tbody tr:hover {
     .testimonial-section {
         padding: 60px 5%;
         text-align: center;
-        background-image: url("./Img/background/bg.png");
+        background-image: url("bg.png");
         position: relative;
         }
 
@@ -2474,7 +2478,7 @@ margin:auto;
 
 .portfolio{
 padding:70px 0;
-background-image: url("./Img/background/bg.png");
+background-image: url("bg.png");
 position: relative;
 }
 
